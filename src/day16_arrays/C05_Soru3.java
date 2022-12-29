@@ -1,5 +1,7 @@
 package day16_arrays;
 
+import java.util.Arrays;
+
 public class C05_Soru3 {
     public static void main(String[] args) {
 
@@ -8,7 +10,7 @@ public class C05_Soru3 {
 
        int[] sayilar={3, 7, 1, 9, -3, -11, -50};
         System.out.println(arraydekiPozitifSayilariTopla(sayilar));
-
+        Arrays.sort(sayilar);
     }
 
 

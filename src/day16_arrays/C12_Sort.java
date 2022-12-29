@@ -13,5 +13,6 @@ public class C12_Sort {
             System.out.println(Arrays.toString(isimler)); // [Akile, Huseyin, Mahmut, Mehmet, Said, Yusuf, adnan, ahmet]
             // Eger buyukten kucuge siralamak istersek , once sort kullanarak natural order'a gore siralar
             // sonra gecici bir array kullanarak siralamayi terse ceviririz
+
         }
 }

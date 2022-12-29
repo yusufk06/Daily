@@ -4,17 +4,19 @@ public class APersonel {
 
 
 
-        String isim="Isim atanmadi";
-        String soyisim="Soyisim atanmadi";
-        String telefon= "Telefon atanmadi";
-        public  void maas(){
+   protected      String isim="Isim atanmadi";
+     protected    String soyisim="Soyisim atanmadi";
+      protected   String telefon= "Telefon atanmadi";
+       protected   void maas(){
             System.out.println("Hastanemizde uygulanan asgari ucret : "+ 1700);
 
         }
 
-public void  ozelSigorta(){
+protected void  ozelSigorta(){
     System.out.println("Tum personelin ozel saglik sigortasi hakki yaptirilir");
 }
 
-
+private  void privateMethod(){
+    System.out.println("private method calisti");
+}
 }

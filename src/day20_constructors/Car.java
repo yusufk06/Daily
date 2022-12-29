@@ -14,7 +14,7 @@ public class Car {
     int km;
     String renk="Renk secilmedi";
 
-    public Car() {
+    public  Car() {
 
     }
 
